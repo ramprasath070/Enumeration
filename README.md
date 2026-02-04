@@ -73,25 +73,22 @@ This operator allows you to view the cached version of a page. For example, "cac
 
 <img width="938" height="1161" alt="Screenshot 2026-02-04 084128" src="https://github.com/user-attachments/assets/d3c37b55-7774-46ec-ad50-242d57a1cdb8" />
 
-#DNS Enumeration
+# DNS Enumeration
 
 
-##DNS Recon
+## DNS Recon
 provides the ability to perform:
 Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
 Perform common SRV Record Enumeration
 Top level domain expansion
-## OUTPUT:
-
-
 
 
 <img width="920" height="803" alt="Screenshot 2026-02-04 084837" src="https://github.com/user-attachments/assets/005903c6-9953-4724-a52b-74d0653a08cb" />
 
 
 
-##dnsenum
+## dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
 
 Get the host’s addresses (A record).
@@ -108,7 +105,7 @@ This program is useful for pentesters, ethical hackers and forensics experts. It
 <img width="939" height="798" alt="Screenshot 2026-02-04 085039" src="https://github.com/user-attachments/assets/9764ac6e-5549-4cba-aa09-081c374ffa0a" />
 
 
-##smtp-user-enum
+## smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
 
 <img width="838" height="425" alt="Screenshot 2026-02-04 090937" src="https://github.com/user-attachments/assets/72ab99a3-8096-411f-801e-638523aea5e2" />
@@ -119,13 +116,11 @@ In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
 select any username in the first column of the above file and check the same
 
 
-#Telnet for smtp enumeration
+## Telnet for smtp enumeration
 Telnet allows to connect to remote host based on the port no. For smtp port no is 25
 telnet <host address> 25 to connect
 and issue appropriate commands
-  
- ##Output
-  
+
   <img width="653" height="207" alt="image" src="https://github.com/user-attachments/assets/1179ea3c-547f-4d43-976e-12782cef7151" />
 
 
